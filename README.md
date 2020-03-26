@@ -1,8 +1,8 @@
 # Music Visualiser Project
 
-Name:
+Name: Daniel Krasovski
 
-Student Number: 
+Student Number: C18357323
 
 ## Instructions
 - Fork this repository and use it a starter project for your assignment

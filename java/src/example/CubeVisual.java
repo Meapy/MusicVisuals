@@ -1,14 +1,20 @@
 package example;
 
 import ie.tudublin.Visual;
+import example.AudioBandsVisual;
+
+import processing.core.PApplet;
 
 public class CubeVisual extends Visual
 {
+
+    AudioBandsVisual abv;
     boolean twocubes = false;
 
     public void settings()
     {
         size(800, 800, P3D);
+
         //fullScreen(P3D, SPAN);
     }
 
@@ -35,11 +41,12 @@ public class CubeVisual extends Visual
         setFrameSize(256);
 
         startMinim();
-        loadAudio("heroplanet.mp3");
+        loadAudio("ILLENIUM.mp3");
         //getAp().play();
-        //startListening(); 
+        //startListening();
         
     }
+
 
     float smoothedBoxSize = 0;
 
@@ -86,4 +93,7 @@ public class CubeVisual extends Visual
         angle += 0.01f;
     }
     float angle = 0;
+    public static void main (String...args){
+        PApplet.main("example.CubeVisual");
+    }
 }
